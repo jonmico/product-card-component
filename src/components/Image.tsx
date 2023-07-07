@@ -24,11 +24,8 @@ const StyledImageDesktop = styled.img`
 export default function Image() {
   return (
     <>
-      <StyledImageMobile src='/public/images/image-product-mobile.jpg' alt='' />
-      <StyledImageDesktop
-        src='/public/images/image-product-desktop.jpg'
-        alt=''
-      />
+      <StyledImageMobile src='/images/image-product-mobile.jpg' alt='' />
+      <StyledImageDesktop src='/images/image-product-desktop.jpg' alt='' />
     </>
   );
 }
