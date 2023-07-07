@@ -14,7 +14,7 @@ const StyledImageDesktop = styled.img`
   display: none;
 
   @media only screen and (min-width: 1440px) {
-    display: block;
+    display: inline;
     width: 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
