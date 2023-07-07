@@ -22,6 +22,7 @@ const StyledCard = styled.div`
 
   @media only screen and (min-width: 1440px) {
     flex-direction: row;
+    align-items: normal;
     width: 750px;
     max-width: 750px;
   }
