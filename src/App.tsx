@@ -69,6 +69,30 @@ const SmallPriceSpan = styled.span`
   margin-left: 1.25rem;
 `;
 
+const CartButton = styled.button`
+  width: 100%;
+  font-weight: bold;
+  font-size: 0.75rem;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  font-family: Montserrat;
+  padding: 1em;
+  border-radius: 5px;
+  border: none;
+  margin-top: 1rem;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    width: 1em;
+    margin-right: 0.75rem;
+  }
+`;
+
 export default function App() {
   return (
     <StyledMainWrapper>
@@ -85,6 +109,12 @@ export default function App() {
             <BigPriceSpan>$149.99</BigPriceSpan>
             <SmallPriceSpan>$169.99</SmallPriceSpan>
           </StyledPriceDiv>
+          <CartButton>
+            <div>
+              <img src='images/icon-cart.svg' alt='' />
+              <span>Add to Cart</span>
+            </div>
+          </CartButton>
         </StyledContentWrapper>
       </StyledCard>
     </StyledMainWrapper>
