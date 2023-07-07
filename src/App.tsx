@@ -116,6 +116,12 @@ const CartButton = styled.button`
   border-radius: 5px;
   border: none;
   margin-top: 1rem;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    cursor: pointer;
+    background-color: hsl(158, 36%, 20%);
+  }
 
   div {
     display: flex;
