@@ -23,11 +23,17 @@ const StyledImageDesktop = styled.img`
   }
 `;
 
+const ImageWrapper = styled.div`
+  @media only screen and (min-width: 1440px) {
+    width: 50%;
+  }
+`;
+
 export default function Image() {
   return (
-    <div>
+    <ImageWrapper>
       <StyledImageMobile src='./images/image-product-mobile.jpg' alt='' />
       <StyledImageDesktop src='./images/image-product-desktop.jpg' alt='' />
-    </div>
+    </ImageWrapper>
   );
 }

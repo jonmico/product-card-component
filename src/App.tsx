@@ -36,15 +36,16 @@ const StyledPHeader = styled.p`
 
   @media only screen and (min-width: 1440px) {
     font-size: 1rem;
+    margin-top: 0.5rem;
   }
 `;
 
 const StyledContentWrapper = styled.div`
   padding: 1.25rem;
-  width: 100%;
 
   @media only screen and (min-width: 1440px) {
     padding: 2.25rem;
+    width: 50%;
   }
 `;
 
@@ -56,7 +57,7 @@ const StyledH1 = styled.h1`
   color: hsl(212, 21%, 14%);
 
   @media only screen and (min-width: 1440px) {
-    margin-top: 1.25rem;
+    margin-top: 1.5rem;
     font-size: 2.75rem;
   }
 `;
@@ -81,7 +82,7 @@ const StyledPriceDiv = styled.div`
   margin-top: 1rem;
 
   @media only screen and (min-width: 1440px) {
-    margin-top: 2rem;
+    margin-top: 2.25rem;
   }
 `;
 
@@ -136,7 +137,7 @@ const CartButton = styled.button`
   }
 
   @media only screen and (min-width: 1440px) {
-    margin-top: 2rem;
+    margin-top: 2.25rem;
     font-size: 1rem;
   }
 `;
