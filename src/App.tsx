@@ -32,11 +32,19 @@ const StyledPHeader = styled.p`
   color: hsl(228, 12%, 48%);
   font-size: 0.75rem;
   letter-spacing: 6px;
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 1rem;
+  }
 `;
 
 const StyledContentWrapper = styled.div`
   padding: 1.25rem;
   width: 100%;
+
+  @media only screen and (min-width: 1440px) {
+    padding: 2.25rem;
+  }
 `;
 
 const StyledH1 = styled.h1`
@@ -45,6 +53,11 @@ const StyledH1 = styled.h1`
   margin-top: 0.75rem;
   line-height: 1;
   color: hsl(212, 21%, 14%);
+
+  @media only screen and (min-width: 1440px) {
+    margin-top: 1.25rem;
+    font-size: 2.75rem;
+  }
 `;
 
 const StyledP = styled.p`
@@ -52,6 +65,11 @@ const StyledP = styled.p`
   font-size: 0.85rem;
   margin-top: 0.75rem;
   line-height: 1.5;
+
+  @media only screen and (min-width: 1440px) {
+    margin-top: 1.75rem;
+    font-size: 1rem;
+  }
 `;
 
 const StyledPriceDiv = styled.div`
@@ -60,12 +78,20 @@ const StyledPriceDiv = styled.div`
   justify-content: flex-start;
   align-items: center;
   margin-top: 1rem;
+
+  @media only screen and (min-width: 1440px) {
+    margin-top: 2rem;
+  }
 `;
 
 const BigPriceSpan = styled.span`
   color: hsl(158, 36%, 37%);
   font-family: Fraunces;
   font-size: 1.75rem;
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 2rem;
+  }
 `;
 
 const SmallPriceSpan = styled.span`
@@ -73,6 +99,10 @@ const SmallPriceSpan = styled.span`
   text-decoration: line-through;
   font-size: 0.75rem;
   margin-left: 1.25rem;
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 1rem;
+  }
 `;
 
 const CartButton = styled.button`
@@ -82,7 +112,7 @@ const CartButton = styled.button`
   background-color: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
   font-family: Montserrat;
-  padding: 1em;
+  padding: 1.25em;
   border-radius: 5px;
   border: none;
   margin-top: 1rem;
@@ -96,6 +126,11 @@ const CartButton = styled.button`
   img {
     width: 1em;
     margin-right: 0.75rem;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    margin-top: 2rem;
+    font-size: 1rem;
   }
 `;
 
