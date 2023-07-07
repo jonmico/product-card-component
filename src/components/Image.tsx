@@ -12,10 +12,11 @@ const StyledImageMobile = styled.img`
 
 const StyledImageDesktop = styled.img`
   display: none;
+  width: 100%;
 
   @media only screen and (min-width: 1440px) {
     display: inline;
-    width: 100%;
+    /* width: 100%; */
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
