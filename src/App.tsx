@@ -19,6 +19,12 @@ const StyledCard = styled.div`
   min-width: 320px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
+
+  @media only screen and (min-width: 1440px) {
+    flex-direction: row;
+    width: 50%;
+    max-width: 750px;
+  }
 `;
 
 const StyledPHeader = styled.p`
